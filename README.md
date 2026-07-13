@@ -394,8 +394,8 @@ Non sono richiesti database, servizi esterni, chiavi API o variabili d’ambient
 ### 1. Clonare il repository
 
 ```powershell
-git clone https://github.com/Emilio-Moscatiello/Perimetra-Digimetrica-s-brief-.git
-cd Perimetra-Digimetrica-s-brief-
+git clone https://github.com/Emilio-Moscatiello/Perimetra-brief-.git
+cd Perimetra-brief-
 ```
 
 Se i file sono già presenti sul computer, aprire direttamente un terminale nella cartella principale.
