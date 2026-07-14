@@ -609,3 +609,5 @@ Le seguenti sono idee e **non** funzionalità attualmente implementate:
 ## Licenza
 
 Il repository non specifica attualmente una licenza. In assenza di un file `LICENSE`, non si devono presumere diritti di utilizzo, modifica o redistribuzione oltre a quelli concessi esplicitamente dal proprietario del progetto.
+
+--
