@@ -1,0 +1,155 @@
+:root {
+  color-scheme: light;
+
+  --surface-0: #e9ede8;
+  --surface-1: #f7f8f3;
+  --surface-2: #e3e8e2;
+  --surface-inverse: #10201f;
+
+  --text-primary: #12201f;
+  --text-secondary: #465553;
+  --text-muted: #71807c;
+
+  --grid-line: #d3dad4;
+  --baseline: #a9b7b1;
+  --border-hairline: rgba(18, 32, 31, 0.16);
+  --border-strong: rgba(18, 32, 31, 0.32);
+
+  --series-1: #007e7b;
+  --series-2: #1f9e78;
+  --series-3: #d79922;
+  --series-4: #438a46;
+  --series-5: #5569a7;
+  --series-6: #c8493f;
+  --series-7: #a95672;
+  --series-8: #d16632;
+
+  --seq-100: #c4e2dd;
+  --seq-200: #9acfc7;
+  --seq-300: #63b7ae;
+  --seq-400: #168f8b;
+  --seq-500: #00726f;
+  --seq-600: #005754;
+  --seq-700: #163f3d;
+
+  --status-good: #198754;
+  --status-warning: #b97808;
+  --status-serious: #c35f2e;
+  --status-critical: #c03935;
+  --success-text: #126f47;
+
+  --accent: #007e7b;
+  --accent-bright: #22c7bd;
+  --accent-soft: rgba(0, 126, 123, 0.11);
+  --shadow-card: 0 1px 0 rgba(255, 255, 255, 0.8), 0 10px 24px rgba(18, 32, 31, 0.055);
+  --radius-card: 3px;
+  --radius-control: 2px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --surface-0: #071110;
+    --surface-1: #0d1a19;
+    --surface-2: #142321;
+    --surface-inverse: #eaf3ee;
+    --text-primary: #eaf3ee;
+    --text-secondary: #b0bfba;
+    --text-muted: #718580;
+    --grid-line: #20322f;
+    --baseline: #38504c;
+    --border-hairline: rgba(184, 218, 208, 0.14);
+    --border-strong: rgba(184, 218, 208, 0.28);
+    --series-1: #27b6ad;
+    --series-2: #45c994;
+    --series-3: #e0ab43;
+    --series-4: #6db46e;
+    --series-5: #8196d8;
+    --series-6: #e16c62;
+    --series-7: #ca7794;
+    --series-8: #e17c4b;
+    --seq-100: #123b38;
+    --seq-200: #14504c;
+    --seq-300: #126963;
+    --seq-400: #178b84;
+    --seq-500: #27b6ad;
+    --seq-600: #58cdc4;
+    --seq-700: #94e2dc;
+    --status-good: #42bd7c;
+    --status-warning: #e0a93b;
+    --status-serious: #e37a48;
+    --status-critical: #e5635e;
+    --success-text: #42bd7c;
+    --accent: #27b6ad;
+    --accent-bright: #63ded5;
+    --accent-soft: rgba(39, 182, 173, 0.12);
+    --shadow-card: 0 12px 30px rgba(0, 0, 0, 0.18);
+  }
+}
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --surface-0: #071110;
+  --surface-1: #0d1a19;
+  --surface-2: #142321;
+  --surface-inverse: #eaf3ee;
+  --text-primary: #eaf3ee;
+  --text-secondary: #b0bfba;
+  --text-muted: #718580;
+  --grid-line: #20322f;
+  --baseline: #38504c;
+  --border-hairline: rgba(184, 218, 208, 0.14);
+  --border-strong: rgba(184, 218, 208, 0.28);
+  --series-1: #27b6ad;
+  --series-2: #45c994;
+  --series-3: #e0ab43;
+  --series-4: #6db46e;
+  --series-5: #8196d8;
+  --series-6: #e16c62;
+  --series-7: #ca7794;
+  --series-8: #e17c4b;
+  --seq-100: #123b38;
+  --seq-200: #14504c;
+  --seq-300: #126963;
+  --seq-400: #178b84;
+  --seq-500: #27b6ad;
+  --seq-600: #58cdc4;
+  --seq-700: #94e2dc;
+  --status-good: #42bd7c;
+  --status-warning: #e0a93b;
+  --status-serious: #e37a48;
+  --status-critical: #e5635e;
+  --success-text: #42bd7c;
+  --accent: #27b6ad;
+  --accent-bright: #63ded5;
+  --accent-soft: rgba(39, 182, 173, 0.12);
+  --shadow-card: 0 12px 30px rgba(0, 0, 0, 0.18);
+}
+
+:root[data-theme="light"] {
+  color-scheme: light;
+  --surface-0: #e9ede8;
+  --surface-1: #f7f8f3;
+  --surface-2: #e3e8e2;
+  --surface-inverse: #10201f;
+  --text-primary: #12201f;
+  --text-secondary: #465553;
+  --text-muted: #71807c;
+  --grid-line: #d3dad4;
+  --baseline: #a9b7b1;
+  --border-hairline: rgba(18, 32, 31, 0.16);
+  --border-strong: rgba(18, 32, 31, 0.32);
+  --series-1: #007e7b;
+  --series-2: #1f9e78;
+  --series-3: #d79922;
+  --series-4: #438a46;
+  --series-5: #5569a7;
+  --series-6: #c8493f;
+  --series-7: #a95672;
+  --series-8: #d16632;
+  --success-text: #126f47;
+  --accent: #007e7b;
+  --accent-bright: #22c7bd;
+  --accent-soft: rgba(0, 126, 123, 0.11);
+  --shadow-card: 0 1px 0 rgba(255, 255, 255, 0.8), 0 10px 24px rgba(18, 32, 31, 0.055);
+}
