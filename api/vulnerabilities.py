@@ -1,5 +1,5 @@
-from _data import get_vulnerabilities
-from _util import JSONHandler
+from api._data import get_vulnerabilities
+from api._util import JSONHandler
 
 
 class handler(JSONHandler):

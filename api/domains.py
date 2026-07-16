@@ -1,5 +1,5 @@
-from _data import list_domains
-from _util import JSONHandler
+from api._data import list_domains
+from api._util import JSONHandler
 
 
 class handler(JSONHandler):
